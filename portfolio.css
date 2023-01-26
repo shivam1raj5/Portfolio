@@ -11,7 +11,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
- 
+
 
 body {
   margin: 0;
@@ -25,113 +25,102 @@ body {
 }
 
 a {
-    color: #0BCEAF;
-    text-decoration: none;
-    background-color: transparent;
-  }
-  
-  a:hover {
-    color: #078571;
-    text-decoration: underline;
-  }
-   
-  h1,h2,h3,h4,h5,h6,p{
-    color: #020202 !important;
-  } 
+  color: #0BCEAF;
+  text-decoration: none;
+  background-color: transparent;
+}
 
-  /********** Template CSS ************/
+a:hover {
+  color: #078571;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #020202 !important;
+}
+
+
+
+/********** Template CSS ************/
 
 
 .text-stroke-header {
-    -webkit-text-stroke: 3px #ffffff;
-    color: transparent;
-  }
-  
-  .btn {
-    padding: 10px 25px;
-    border-radius: 100px;
-  }
-  
-  .btn-social {
-    width: 45px;
-    height: 45px;
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
-    border-radius: 45px;
-  }
-  
-  .form-control {
-    border-radius: 25px;
-  }
+  -webkit-text-stroke: 3px #ffffff;
+  color: transparent;
+}
 
-  /* ================ Navigation Menu ====================*/
+.btn {
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+
+.btn-social {
+  width: 45px;
+  height: 45px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  border-radius: 45px;
+}
+
+.form-control {
+  border-radius: 25px;
+}
 
 
-.navbar-light {
-    display: none;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-    padding: 25px 10px;
-    color: #343a40;
-    font-weight: 500;
-    outline: none;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover,
-  .navbar-light .navbar-nav .nav-link.active {
-    color: #0BCEAF;
-  }
-  
-  @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link {
-      padding: 10px 0;
-    }
-  }
+/*===================== Hero section ======================*/
 
-  /*===================== Hero section ======================*/
 
-.about-img{
+.about-img {
   margin-left: -100px;
   right: -60px;
- }
- 
- .display-1{
-   font-size: 160px;
-   font-weight: 1000;
-   
- }
-  
- .position-absolute{
-   font-weight: 700;
-   
- }
- 
- .typed-cursor {
-   font-size: 45px;
-   color: #ffffff;
- }
- 
- .blue{
-   background-color: #1c5ce6;
-   color: #ffffff;
- }
- .btn{
-   border: 2px solid rgb(29, 105, 247);
- } 
- .btn-white{
-   background-color: #ffffff;
-   border:2px solid #ffffff;
- }
- .btn-blue{
-   border: 2.4px solid #ffffff;
-   color: #ffffff;
- }
- @media (max-width: 700px) {
-   .about-img{
-     margin-left: 20px;
-     right: 0px;
-     top: 30px;
-    }
- }
+}
+
+.display-1 {
+  font-size: 160px;
+  font-weight: 1000;
+
+}
+
+.position-absolute {
+  font-weight: 700;
+
+}
+
+.typed-cursor {
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.blue {
+  background-color: #1c5ce6;
+  color: #ffffff;
+}
+
+.btn {
+  border: 2px solid rgb(29, 105, 247);
+}
+
+.btn-white {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn-blue {
+  border: 2.4px solid #ffffff;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .about-img {
+    margin-left: 20px;
+    right: 0px;
+    top: 30px;
+  }
+}
