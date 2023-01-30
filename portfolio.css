@@ -45,6 +45,10 @@ p {
   color: #020202 !important;
 }
 
+.bhagwa{
+  background-color: rgb(240, 112, 8);
+}
+
 
 
 /********** Template CSS ************/
@@ -123,4 +127,23 @@ p {
     right: 0px;
     top: 30px;
   }
+}
+
+/*===================== Progress Bar ====================*/
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.skill-per{
+  height: 14px;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
 }
