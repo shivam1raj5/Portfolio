@@ -77,6 +77,37 @@ p {
   border-radius: 25px;
 }
 
+/* ================ Navigation Menu ====================*/
+
+
+.navbar-dark {
+  display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 12px 10px;
+  color: #ffffff;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ff7733;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+}
 
 /*===================== Hero section ======================*/
 
