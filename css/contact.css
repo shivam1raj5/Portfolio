@@ -45,7 +45,7 @@ p {
   color: #020202 !important;
 }
 
-.bhagwa{
+.bhagwa {
   background-color: rgb(240, 112, 8);
 }
 
@@ -80,58 +80,52 @@ p {
 /* ================ Navigation Menu ====================*/
 
 
-.navbar-dark {
-  display: none;
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  padding: 12px 10px;
-  color: #ffffff;
-  font-weight: 500;
-  outline: none;
+ul.navbar li {
+  float: left;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
-  color: #ff7733;
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.right {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-right: 0;
-}
-
-@media (max-width: 991.98px) {
-  .navbar-light .navbar-nav .nav-link {
-    padding: 10px 0;
-  }
+ul.navbar li a:hover {
+  background-color: rgb(240, 112, 8);
 }
 
 /* ================ Social Profile ====================*/
 
 #e {
-    background: #343A40;
-    margin-left: 18%;
-    margin-bottom: 5%;
-    padding-top: 1%;
-    padding-bottom: 4%;
-    width: 63%;
-    height: 50%;
-    border-radius: 10%;
-    border-color: lightgrey;
-    border-style: solid;
-    border-width: 4px;
+  background: #343A40;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 4%;
+  width: 63%;
+  height: 50%;
+  border-radius: 10%;
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: 4px;
 }
 
 .check {
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 21%;
-    height: 28%;
-    border-radius: 20%;
-    border-style: solid;
-    background-size: cover;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 21%;
+  height: 28%;
+  border-radius: 20%;
+  border-style: solid;
+  background-size: cover;
 }

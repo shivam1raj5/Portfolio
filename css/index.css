@@ -45,7 +45,7 @@ p {
   color: #020202 !important;
 }
 
-.bhagwa{
+.bhagwa {
   background-color: rgb(240, 112, 8);
 }
 
@@ -80,36 +80,33 @@ p {
 /* ================ Navigation Menu ====================*/
 
 
-.navbar-dark {
-  display: none;
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #414444;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  padding: 12px 10px;
-  color: #ffffff;
-  font-weight: 500;
-  outline: none;
+ul.navbar li {
+  float: left;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
-  color: #ff7733;
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.right {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-right: 0;
+ul.navbar li a:hover {
+  background-color: rgb(240, 112, 8);
 }
 
-@media (max-width: 991.98px) {
-  .navbar-light .navbar-nav .nav-link {
-    padding: 10px 0;
-  }
-}
 
-/*===================== Hero section ======================*/
+/*===================== Header section ======================*/
 
 
 #aa {
@@ -151,12 +148,12 @@ p {
   text-align: center;
 }
 
-#ab:hover{
+#ab:hover {
   transform: scale(1.1);
   background: #1f2f36;
 }
 
-#cd:hover{
+#cd:hover {
   transform: scale(1.1);
   background: #1f2f36;
 }
@@ -190,4 +187,8 @@ p {
   border-radius: 80%;
   width: 370px;
   height: 370px;
+}
+
+#marq {
+  color: white;
 }
