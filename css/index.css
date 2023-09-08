@@ -121,41 +121,6 @@ ul.navbar li a:hover {
   font-size: 50px;
 }
 
-#ab {
-  border-radius: 20%;
-  color: white;
-  font-family: arial;
-  font-size: 23px;
-  padding: 20px;
-  margin-left: 37%;
-  margin-right: 2%;
-  margin-bottom: 50px;
-  margin-top: 30px;
-  background-color: #262626;
-  text-align: center;
-}
-
-#cd {
-  border-radius: 20%;
-  color: white;
-  margin-top: 30px;
-  font-family: arial;
-  font-size: 23px;
-  padding: 20px;
-  margin-bottom: 50px;
-  background-color: #262626;
-  text-align: center;
-}
-
-#ab:hover {
-  transform: scale(1.1);
-  background: #1f2f36;
-}
-
-#cd:hover {
-  transform: scale(1.1);
-  background: #1f2f36;
-}
 
 p {
   display: block;
@@ -186,6 +151,30 @@ p {
   border-radius: 80%;
   width: 370px;
   height: 370px;
+}
+
+.resumePort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.btn {
+  background-color: #333333;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(240, 112, 8);
 }
 
 #marq {
