@@ -122,3 +122,24 @@ ul.navbar li a:hover {
   position: relative;
   animation: fillBars 2.5s 1;
 }
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.position-relative1 {
+  position: relative;
+  padding: 20px;
+  margin: 5%;
+  border-radius: 8px;
+}
+
+.text-primary1 {
+  color: #3498db;
+}
+
+.text-white1 {
+  color: #fff;
+}
